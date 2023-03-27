@@ -1,9 +1,17 @@
 {
     "name": "fedora-fr/flarum-theme",
-    "version": "0.0.1",
     "description": "Fedora-Fr theme",
+    "license": [
+        "LGPL-2.1-only"
+    ],
     "keywords": [
         "flarum"
+    ],
+    "authors": [
+        {
+            "name": "Guillaume Kulakowski",
+            "email": "guillaume@kulakowski.fr"
+        }
     ],
     "type": "flarum-extension",
     "require": {
