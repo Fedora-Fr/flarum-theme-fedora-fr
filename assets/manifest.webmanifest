@@ -1,0 +1,22 @@
+{
+  "name": "forum.fedora-fr.org",
+  "short_name": "forum.fedora-fr.org",
+  "theme_color": "#51a2d9",
+  "icons": [
+    {
+      "src": "/assets/extensions/fedora-fr-theme/fedora-fr_icon.svg",
+      "sizes": "48x48",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/extensions/fedora-fr-theme/fedora-fr_square-logo.svg",
+      "sizes": "256x256",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fff",
+  "scope": "/",
+  "lang": "fr"
+}
