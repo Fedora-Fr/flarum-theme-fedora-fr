@@ -28,7 +28,7 @@ Conditions d’utilisation">règlement</a>)</dd>
     	</dl>
     </div>
     <div class="container partnership">
-    	<p class="disclaimer"><a href="https://www.scaleway.com/" title="Créer, déployer et scaler vos applications avec l'écosystème cloud le plus complet d'Europe."><img src="https://common.fedora-fr.org/v6/scaleway-white.svg" height="70px"></a>Fedora-Fr est hébergé <a href="https://www.scaleway.com/fr/open-source-program/" title="Le programme Open Source de Scaleway est un programme de cloud computing limité dans le temps, renouvelable, conçu pour soutenir les projets open source.">gracieusement</a> sur une instance <a href="https://www.scaleway.com/" title="Créer, déployer et scaler vos applications avec l'écosystème cloud le plus complet d'Europe.">Scaleway</a>.</p>
+    	<p class="disclaimer"><a href="https://www.scaleway.com/" title="Créer, déployer et scaler vos applications avec l'écosystème cloud le plus complet d'Europe."><img src="https://common.fedora-fr.org/v6/scaleway-white.svg" height="70" width="147"></a>Fedora-Fr est hébergé <a href="https://www.scaleway.com/fr/open-source-program/" title="Le programme Open Source de Scaleway est un programme de cloud computing limité dans le temps, renouvelable, conçu pour soutenir les projets open source.">gracieusement</a> sur une instance <a href="https://www.scaleway.com/" title="Créer, déployer et scaler vos applications avec l'écosystème cloud le plus complet d'Europe.">Scaleway</a>.</p>
     </div>
     <div class="container disclaimer">
     	<p class="disclaimer">Le <a href="https://getfedora.org/fr" title="Le projet Fedora">Projet Fedora</a> est maintenu et dirigé par la communauté et sponsorisé par Red Hat.</p>
