@@ -35,13 +35,6 @@ class FedoraFrTheme
     {
         $forumApiDocument = $document->getForumApiDocument();
 
-        // Add manifest
-        Arr::set(
-            $document->head,
-            'manifest',
-            '<link rel="manifest" href="' . self::ASSETS_PATH . '/manifest.webmanifest">'
-        );
-
         // Override favicon with svg.
         Arr::set(
             $document->head,
