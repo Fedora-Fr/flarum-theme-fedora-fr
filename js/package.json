@@ -2,7 +2,7 @@
     "private": true,
     "name": "@fedora-fr/fedora-fr-theme",
     "dependencies": {
-        "flarum-webpack-config": "^1.0.0",
+        "flarum-webpack-config": "^2.0.2",
         "webpack": "^4.0.0",
         "webpack-cli": "^4.0.0"
     },
