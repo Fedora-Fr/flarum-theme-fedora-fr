@@ -13,7 +13,6 @@ use Illuminate\Support\Arr;
  */
 class FedoraFrTheme
 {
-    private const ASSETS_PATH = '/assets/extensions/fedora-fr-theme';
     private const COMMON_URI = 'https://common.fedora-fr.org/v6';
 
     /**
