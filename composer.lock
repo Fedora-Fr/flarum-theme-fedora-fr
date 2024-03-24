@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a27d47c48e2f9b74bab3fa14fa6e1d32",
+    "content-hash": "53f8efe23216ff53ed07d237f934eb2f",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -8904,6 +8904,7 @@
                     "Flarum\\PHPStan\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -8913,12 +8914,12 @@
             },
             "funding": [
                 {
-                    "type": "github",
-                    "url": "https://github.com/flarum"
+                    "url": "https://github.com/flarum",
+                    "type": "github"
                 },
                 {
-                    "type": "open_collective",
-                    "url": "https://opencollective.com/flarum"
+                    "url": "https://opencollective.com/flarum",
+                    "type": "open_collective"
                 }
             ],
             "time": "2023-04-19T11:58:11+00:00"
