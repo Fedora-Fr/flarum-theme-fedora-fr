@@ -14,8 +14,7 @@
         </dl>
         <dl>
             <dt>Support</dt>
-            <dd><a href="https://forums.fedora-fr.org" title="Les forums de support de Fedora-Fr">Forums</a> (<a href="https://www.fedora-fr.org/conditions-d-utilisation/" title="
-Conditions d’utilisation">règlement</a>)</dd>
+            <dd><a href="https://www.fedora-fr.org/conditions-d-utilisation/" title="Conditions d’utilisation">Conditions d'Utilisation</a></dd>
             <dd><a href="https://doc.fedora-fr.org" title="Wiki de Fedora-Fr">Documentation</a></dd>
             <dd><a href="https://www.fedora-fr.org/messagerie-instantanee" title="Support et communauté via messagerie instantanée">Messagerie instantanée</a></dd>
         </dl>
