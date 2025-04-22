@@ -22,7 +22,7 @@
             <dt>Réseaux sociaux</dt>
             <dd><a title="Fedora-Fr sur Mastodon" class="fab fa-mastodon" href="https://framapiaf.org/@fedora_fr"><span>Fedora-Fr sur Mastodon</span></a></dd>
             <dd><a title="Fan page Facebook de Fedora-Fr" class="fab fa-facebook-square" href="https://www.facebook.com/fedorafr"><span>Fan page Facebook</span></a></dd>
-            <dd><a title="Fedora-Fr sur Bluesky" class="fab fa-square-bluesky" href="https://bsky.app/profile/fedora-fr.bsky.social"><span>Fedora-Fr sur Bluesky</span></a></dd>
+            <dd><a title="Fedora-Fr sur Bluesky" class="fab fa-square-bluesky" href="https://bsky.app/profile/fedora-fr.org"><span>Fedora-Fr sur Bluesky</span></a></dd>
             <dd><a title="Flux RSS des actualités de Fedora-Fr" class="fas fa-rss-square" href="https://www.fedora-fr.org/flux-rss-de-fedora-fr/"><span>Flux RSS des actualités de Fedora-Fr</span></a></dd>
         </dl>
     </div>
