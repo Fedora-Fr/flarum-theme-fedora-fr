@@ -3,7 +3,7 @@
     "name": "@fedora-fr/fedora-fr-theme",
     "dependencies": {
         "flarum-webpack-config": "^1.0.0",
-        "webpack": "^4.0.0",
+        "webpack": "^5.100.1",
         "webpack-cli": "^4.0.0"
     },
     "devDependencies": {
