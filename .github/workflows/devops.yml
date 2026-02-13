@@ -29,5 +29,6 @@ jobs:
           ${{ runner.os }}-php-
     - name: Install PHP dependencies
       run: composer install --prefer-dist --no-progress --no-suggest --no-scripts
-    - name: Run test suite
-      run: composer clear-cache:phpstan && composer analyse:phpstan
+    # For php stan compatibility, waiting Flarum 2
+    #- name: Run test suite
+    #  run: composer clear-cache:phpstan && composer analyse:phpstan
