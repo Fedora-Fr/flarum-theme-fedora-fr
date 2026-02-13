@@ -9,7 +9,7 @@ jobs:
     name: Test
     strategy:
       matrix:
-        php-version: [ 8.2, 8.3 ]
+        php-version: [ 8.4, 8.5 ]
     steps:
     - name: Git checkout
       uses: actions/checkout@v6
