@@ -2,21 +2,22 @@
     <div class="container">
         <dl>
             <dt>Fedora-Fr</dt>
-            <dd><a href="https://www.fedora-fr.org/a-propos-de-fedora-fr" title="À propos du site Fedora-Fr.org">À propos de Fedora-Fr</a></dd>
-            <dd><a href="http://www.fedora-fr.org/historique" title="Historique des différentes équipes et versions de Fedora-Fr">Historique</a></dd>
-            <dd><a href="https://www.fedora-fr.org/politique-de-confidentialite" title="Politique de confidentialité de Fedora-Fr">Politique de confidentialité</a></dd>
+            <dd><a href="https://www.fedora-fr.org/a-propos-de-fedora-fr" title="À propos du site Fedora-Fr et des équipes">À propos</a></dd>
+            <dd><a href="https://www.fedora-fr.org/museum-de-fedora/" title="Les anciennes versions de Fedora à travers les ages…">Muséum de Fedora</a></dd>
+            <dd><a href="https://www.fedora-fr.org/politique-de-confidentialite" title="Politique de confidentialité sur les sites de Fedora-Fr">Politique de confidentialité</a></dd>
             <dd><a href="https://stats.fedora-fr.org" title="Statistiques de fréquentation de Fedora-Fr">Statistiques</a></dd>
         </dl>
         <dl>
             <dt>Télécharger</dt>
-            <dd><a href="https://doc.fedora-fr.org/wiki/T%C3%A9l%C3%A9charger_Fedora" title="Obtenir les CDs/DVDs de Fedora">Obtenir Fedora</a></dd>
-            <dd><a href="https://getfedora.org/fr/" title="Toutes les méthodes de téléchargement de Fedora">Toutes les méthodes de téléchargement</a></dd>
+            <dd><a href="https://www.fedora-fr.org/les-differentes-versions-de-fedora/" title="Télécharger Fedora : les différentes versions disponibles">Télécharger Fedora Linux</a></dd>
+            <dd><a href="https://www.fedoraproject.org/fr/" title="Ce système d’exploitation, il est à vous. Une plateforme innovante pour les machines, le cloud et les conteneurs. Bâtie avec amour, par vous.">Fedora Project</a></dd>
         </dl>
         <dl>
             <dt>Support</dt>
             <dd><a href="https://www.fedora-fr.org/conditions-d-utilisation/" title="Conditions d’utilisation">Conditions d'Utilisation</a></dd>
-            <dd><a href="https://doc.fedora-fr.org" title="Wiki de Fedora-Fr">Documentation</a></dd>
-            <dd><a href="https://www.fedora-fr.org/messagerie-instantanee" title="Support et communauté via messagerie instantanée">Messagerie instantanée</a></dd>
+            <dd><a href="https://doc.fedora-fr.org" title="Documentation wiki de Fedora-Fr, la communauté francophone Fedora">Documentation</a></dd>
+            <dd><a href="https://doc.fedora-fr.org" title="Forums de Fedora-Fr, la communauté francophone Fedora">Forums</a></dd>
+            <dd><a href="https://www.fedora-fr.org/messagerie-instantanee" title="Support et communauté via messagerie instantanée">Messageries instantanées</a></dd>
         </dl>
         <dl class="last">
             <dt>Réseaux sociaux</dt>
