@@ -1,11 +1,12 @@
 {
     "name": "fedora-fr/flarum-theme",
     "description": "Fedora-Fr theme",
-    "license": [
-        "LGPL-2.1-only"
-    ],
     "keywords": [
         "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": [
+        "LGPL-2.1-only"
     ],
     "authors": [
         {
@@ -13,13 +14,13 @@
             "email": "guillaume@kulakowski.fr"
         }
     ],
-    "type": "flarum-extension",
     "require": {
-        "flarum/core": "^1.8",
-        "fof/links": "^1.4.0"
+        "flarum/core": "^2.0.0",
+        "fof/links": "^2.0.0"
     },
     "require-dev": {
-        "flarum/phpstan": "^1.0"
+        "flarum/phpstan": "^2.0.0",
+        "flarum/testing": "^2.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -46,5 +47,7 @@
     },
     "scripts-descriptions": {
         "analyse:phpstan": "Run static analysis"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
