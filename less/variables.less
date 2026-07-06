@@ -1,47 +1,52 @@
 // Theme light
-.define-colors(false) {
+[data-colored-header="true"][data-theme^="light"] & {
   // Text color
-  @text-color: #212529;
-  @link-color: #007bff;
+  --text-color: #212529;
+  --link-color: #007bff;
+  --header-control-color: #fff;
+  --header-colored-control-color: #fff;
 
   // Code
-  @code-bg: #fdf6e3;
-  @code-color: #657b83;
-  @fedorafr-code-border: #eee8d5;
+  --code-bg: #fdf6e3;
+  --code-color: #657b83;
+  --fedorafr-code-border: #eee8d5;
 
   // Quote
-  @fedorafr-quote-border: @config-primary-color;
+  --fedorafr-quote-border: @config-primary-color;
 
   // navbar
-  @fedorafr-not-top-header-bg: #fff;
-  @fedorafr-not-top-header-color: #668599;
-  @fedorafr-not-top-button-bg: #dee3f0;
-  @fedorafr-not-top-form-bg: #e4eff6;
+  --fedorafr-not-top-header-bg: #fff;
+  --fedorafr-not-top-header-color: #668599;
+  --fedorafr-not-top-button-bg: #dee3f0;
+  --fedorafr-not-top-form-bg: #e4eff6;
 
   // Footer
-  @fedorafr-footer-bgcolor: #343a40;
-  @fedorafr-footer-color1: #999;
-  @fedorafr-footer-color2: #fff;
+  --fedorafr-footer-bgcolor: #343a40;
+  --fedorafr-footer-color1: #999;
+  --fedorafr-footer-color2: #fff;
 }
+
 // Theme dark
-.define-colors(true) {
+[data-colored-header="true"][data-theme^="dark"] & {
   // Text color
+  --header-control-color: #fff;
+  --header-colored-control-color: #fff;
 
   // Code
-  @code-bg: #282c34;
-  @fedorafr-code-border: #999;
+  --code-bg: #282c34;
+  --fedorafr-code-border: #999;
 
   // Quote
-  @fedorafr-quote-border: @config-primary-color;
+  --fedorafr-quote-border: @config-primary-color;
 
   // navbar
-  @fedorafr-not-top-header-bg: #1b2228;
-  @fedorafr-not-top-header-color: #ddd;
-  @fedorafr-not-top-button-bg: #51a2d9;
-  @fedorafr-not-top-form-bg: #51a2d9;
+  --fedorafr-not-top-header-bg: #1b2228;
+  --fedorafr-not-top-header-color: #ddd;
+  --fedorafr-not-top-button-bg: #51a2d9;
+  --fedorafr-not-top-form-bg: #51a2d9;
 
   // Footer
-  @fedorafr-footer-bgcolor: #343a40;
-  @fedorafr-footer-color1: #999;
-  @fedorafr-footer-color2: #fff;
+  --fedorafr-footer-bgcolor: #343a40;
+  --fedorafr-footer-color1: #999;
+  --fedorafr-footer-color2: #fff;
 }

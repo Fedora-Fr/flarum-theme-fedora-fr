@@ -13,8 +13,6 @@ use Illuminate\Support\Arr;
  */
 class FedoraFrTheme
 {
-    private const COMMON_URI = 'https://common.fedora-fr.org/v6';
-
     /**
      * Constructor.
      *
@@ -33,16 +31,6 @@ class FedoraFrTheme
     public function __invoke(Document $document): void
     {
         $forumApiDocument = $document->getForumApiDocument();
-
-        // Override favicon with svg.
-        Arr::set(
-            $document->head,
-            'favicon',
-            '<link rel="icon" href="' . self::COMMON_URI . '/fedora-fr_icon.svg" sizes="any" type="image/svg+xml">'
-        );
-
-
-
         $forumApiDocument['data']['attributes']['headerHtml'] = $this->createHeader();
         $forumApiDocument['data']['attributes']['footerHtml'] = $this->createFooter();
 
@@ -51,7 +39,7 @@ class FedoraFrTheme
 
 
     /**
-     * Footer controler.
+     * Header controler.
      *
      * @return View
      */

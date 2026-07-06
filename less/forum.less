@@ -8,37 +8,41 @@ body {
 }
 
 /** ------------------------------------------------------------------ header */
-.define-colors(true) {
+header.fedora-fr,
+.App-header.navbar-fixed-top {
+  background-image: linear-gradient(to right, #51a2da, #3c6eb4);
+}
+[data-theme^=dark] & {
   header.fedora-fr,
   .App-header.navbar-fixed-top {
     background-image: linear-gradient(to right, #294172, #3c6eb4);
   }
 }
-.define-colors(false) {
-  header.fedora-fr,
-  .App-header.navbar-fixed-top {
-    background-image: linear-gradient(to right, #51a2da, #3c6eb4);
-  }
-}
-
 
 header.fedora-fr {
   @media @phone {
     .fedoraFrVisuallyHidden
   }
   background-color: var(--primary-color);
-  padding-bottom: 10px;
+  padding: 13px 0;
 
-  #ffr-logo a {
-    float: left;
-    margin: 0;
-    padding: 0;
-    height: 75px;
-    width: 253px;
-    background: url('https://common.fedora-fr.org/v6/fedora-fr_white-logo.svg') no-repeat !important;
-    background-size: 253px 75px !important;
-    span {
-      .fedoraFrVisuallyHidden
+  #ffr-logo {
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+    }
+    a {
+      float: left;
+      margin: 0;
+      padding: 0;
+      height: 75px;
+      width: 253px;
+      background: url("/assets/extensions/fedora-fr-theme/fedora-fr_white-logo.svg") no-repeat !important;
+      background-size: 253px 75px !important;
+      span {
+        .fedoraFrVisuallyHidden
+      }
     }
   }
 
@@ -83,20 +87,20 @@ header.fedora-fr {
       }
 
       // Override color
-      background: @fedorafr-not-top-header-bg;
+      background: var(--fedorafr-not-top-header-bg);
       .NotificationsDropdown .Dropdown-toggle.new .Button-icon,
       .Button, .Button:hover {
-        color: @fedorafr-not-top-header-color;
+        color: var(--fedorafr-not-top-header-color);
       }
       .Navigation-back, .Navigation-pin, .Button:hover, .Button:focus, .Button.focus {
-        background-color: @fedorafr-not-top-button-bg;
+        background-color: var(--fedorafr-not-top-button-bg);
       }
       .FormControl::-webkit-input-placeholder, .FormControl::placeholder, .Search-input {
-        color: @fedorafr-not-top-header-color;
+        color: var(--fedorafr-not-top-header-color);
       }
       .FormControl {
-        color: @fedorafr-not-top-header-color;
-        background-color: @fedorafr-not-top-form-bg;
+        color: var(--fedorafr-not-top-header-color);
+        background-color: var(--fedorafr-not-top-form-bg);
       }
     }
   }
@@ -147,39 +151,39 @@ header.fedora-fr {
     &::before {
       .fedoraFrFontAwesomeInclude();
       content: "\f121  ";
-      color: @fedorafr-code-border;
+      color: var(--fedorafr-code-border);
       position: absolute;
       right: 5px;
       font-weight: 700;
       font-size: 24px;
     }
-    border: 2px solid @fedorafr-code-border;
+    border: 2px solid var(--fedorafr-code-border);
   }
 
   blockquote {
     &::before {
       .fedoraFrFontAwesomeInclude();
       content: "\f10e  ";
-      color: @fedorafr-quote-border;
+      color: var(--fedorafr-quote-border);
       position: absolute;
       right: 5px;
       font-weight: 700;
       font-size: 24px;
     }
-    border: 2px dotted @fedorafr-quote-border;
-    border-left: 4px solid @fedorafr-quote-border;
+    border: 2px dotted var(--fedorafr-quote-border);
+    border-left: 4px solid var(--fedorafr-quote-border);
   }
 }
 
 
 /** ------------------------------------------------------------------ Footer */
 #fedorafrFooter {
-  background-color: @fedorafr-footer-bgcolor;
-  color: @fedorafr-footer-color1;
+  background-color: var(--fedorafr-footer-bgcolor);
+  color: var(--fedorafr-footer-color1);
   padding-bottom: 10px;
 
   a {
-    color: @fedorafr-footer-color1;
+    color: var(--fedorafr-footer-color1);
   }
   dl {
     width: 25%;
@@ -205,7 +209,7 @@ header.fedora-fr {
       }
     }
     dt {
-     color: @fedorafr-footer-color2;
+     color: var(--fedorafr-footer-color2);
      font-size: 120%;
      font-weight: bold;
     }
@@ -215,7 +219,7 @@ header.fedora-fr {
   }
   .disclaimer {
     text-align: left;
-    color: @fedorafr-footer-color2;
+    color: var(--fedorafr-footer-color2);
     margin-bottom: 0;
   }
   .partnership img {

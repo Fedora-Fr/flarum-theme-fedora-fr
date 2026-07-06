@@ -9,5 +9,5 @@ parameters:
     - extend.php
   excludePaths:
     - *.blade.php
-  checkMissingIterableValueType: false
-  databaseMigrationsPath: ['migrations']
+    reportUnmatchedIgnoredErrors: false
+    treatPhpDocTypesAsCertain: false

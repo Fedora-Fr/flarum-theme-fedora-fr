@@ -8,8 +8,8 @@ use s9e\TextFormatter\Configurator;
 return [
     (new Extend\Frontend('forum'))
         // Add CSS & JS
-        ->css(__DIR__ . '/less/forum.less')
         ->js(__DIR__ . '/js/dist/forum.js')
+        ->css(__DIR__ . '/less/forum.less')
         // Add templates
         ->content(FedoraFrTheme::class),
 
