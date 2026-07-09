@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "293855dc93a9bbe2dee5b584c52d7359",
+    "content-hash": "096b7be4e9a2a6b7f68f9dc3faf59d21",
     "packages": [
         {
             "name": "asispts/http-accept",
@@ -9297,7 +9297,7 @@
     "packages-dev": [
         {
             "name": "flarum/phpstan",
-            "version": "v2.0.0-rc.4",
+            "version": "v2.0.0-rc.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/phpstan.git",
@@ -9336,7 +9336,7 @@
             ],
             "description": "Flarum PHPStan extension",
             "support": {
-                "source": "https://github.com/flarum/phpstan/tree/v2.0.0-rc.4"
+                "source": "https://github.com/flarum/phpstan/tree/v2.0.0-rc.5"
             },
             "funding": [
                 {
@@ -9352,7 +9352,7 @@
         },
         {
             "name": "flarum/testing",
-            "version": "v2.0.0-rc.4",
+            "version": "v2.0.0-rc.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/testing.git",
@@ -9395,7 +9395,7 @@
                 "forum"
             ],
             "support": {
-                "source": "https://github.com/flarum/testing/tree/v2.0.0-rc.4"
+                "source": "https://github.com/flarum/testing/tree/v2.0.0-rc.5"
             },
             "funding": [
                 {
@@ -9482,16 +9482,16 @@
         },
         {
             "name": "guzzlehttp/uri-template",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/uri-template.git",
-                "reference": "9c19128923b05a5d7355e5d2318d7808b7e33bbd"
+                "reference": "d7580af6d3f8384325d9cd3e99b21c3ed1848176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/uri-template/zipball/9c19128923b05a5d7355e5d2318d7808b7e33bbd",
-                "reference": "9c19128923b05a5d7355e5d2318d7808b7e33bbd",
+                "url": "https://api.github.com/repos/guzzle/uri-template/zipball/d7580af6d3f8384325d9cd3e99b21c3ed1848176",
+                "reference": "d7580af6d3f8384325d9cd3e99b21c3ed1848176",
                 "shasum": ""
             },
             "require": {
@@ -9548,7 +9548,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/uri-template/issues",
-                "source": "https://github.com/guzzle/uri-template/tree/v1.0.8"
+                "source": "https://github.com/guzzle/uri-template/tree/v1.0.9"
             },
             "funding": [
                 {
@@ -9564,7 +9564,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-23T13:02:23+00:00"
+            "time": "2026-07-08T16:19:22+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9660,16 +9660,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v13.18.1",
+            "version": "v13.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "63057801c166decd0d95e32223b10ec3089f4dc6"
+                "reference": "4d36df2a7b3774e2d313e455dac8cfc356d29288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/63057801c166decd0d95e32223b10ec3089f4dc6",
-                "reference": "63057801c166decd0d95e32223b10ec3089f4dc6",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/4d36df2a7b3774e2d313e455dac8cfc356d29288",
+                "reference": "4d36df2a7b3774e2d313e455dac8cfc356d29288",
                 "shasum": ""
             },
             "require": {
@@ -9717,7 +9717,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-06-28T17:11:19+00:00"
+            "time": "2026-07-06T23:09:58+00:00"
         },
         {
             "name": "larastan/larastan",
