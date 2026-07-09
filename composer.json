@@ -19,7 +19,7 @@
         "fof/links": "^2.0.0"
     },
     "require-dev": {
-        "flarum/phpstan": "^2.0.0",
+        "flarum/phpstan": "^2.0.0-rc",
         "flarum/testing": "^2.0.0"
     },
     "autoload": {
