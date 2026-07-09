@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "293855dc93a9bbe2dee5b584c52d7359",
+    "content-hash": "15345714b9eef9a8a302468eaa9833ff",
     "packages": [
         {
             "name": "asispts/http-accept",
@@ -9352,7 +9352,7 @@
         },
         {
             "name": "flarum/testing",
-            "version": "v2.0.0-rc.4",
+            "version": "v2.0.0-rc.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/testing.git",
@@ -9395,7 +9395,7 @@
                 "forum"
             ],
             "support": {
-                "source": "https://github.com/flarum/testing/tree/v2.0.0-rc.4"
+                "source": "https://github.com/flarum/testing/tree/v2.0.0-rc.5"
             },
             "funding": [
                 {

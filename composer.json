@@ -20,7 +20,7 @@
     },
     "require-dev": {
         "flarum/phpstan": "^2.0.0",
-        "flarum/testing": "^2.0.0"
+        "flarum/testing": "^2.0.0-rc"
     },
     "autoload": {
         "psr-4": {
