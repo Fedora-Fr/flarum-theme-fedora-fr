@@ -16,7 +16,7 @@
     ],
     "require": {
         "flarum/core": "^2.0.0-rc",
-        "fof/links": "^2.0.0"
+        "fof/links": "^2.0.0-rc"
     },
     "require-dev": {
         "flarum/phpstan": "^2.0.0-rc",
