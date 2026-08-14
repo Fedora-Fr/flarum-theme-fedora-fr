@@ -1,9 +1,10 @@
-name: DevOps
+name: Tests
 
 on:
   [push, pull_request]
 
 jobs:
+
   test:
     runs-on: ubuntu-latest
     name: Test
@@ -13,10 +14,14 @@ jobs:
     steps:
     - name: Git checkout
       uses: actions/checkout@v6
+
+    # Setup PHP
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
         php-version: ${{ matrix.php-version }}
+
+    # Install & run tasks
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
     - name: Cache Composer packages
