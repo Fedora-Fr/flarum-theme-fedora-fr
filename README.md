@@ -8,8 +8,8 @@ Flarum theme of Fedora-Fr.
 
 ~~~
 cd js
-npm install
-npm run-script build
+pnpm install
+pnpm run-script build
 ~~~
 
 ## Development
@@ -18,7 +18,7 @@ npm run-script build
 
 ~~~
 composer install
-cd js && npm install
+cd js && pnpm install --frozen-lockfile
 ~~~
 
 * Test:
