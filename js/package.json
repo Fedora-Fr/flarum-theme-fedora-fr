@@ -4,7 +4,7 @@
     "dependencies": {
         "babel-loader": "^10.1.1",
         "flarum-webpack-config": "^1.0.0",
-        "webpack": "^5.110.2",
+        "webpack": "^5.110.3",
         "webpack-cli": "^7.2.3"
     },
     "devDependencies": {
