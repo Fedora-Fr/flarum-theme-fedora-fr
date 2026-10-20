@@ -9669,16 +9669,16 @@
         },
         {
             "name": "flarum/testing",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/testing.git",
-                "reference": "0c668c55aad8263ad6977cbf430998be75b6697f"
+                "reference": "226557562f0f7af97f8d1198263923b3814b801e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/testing/zipball/0c668c55aad8263ad6977cbf430998be75b6697f",
-                "reference": "0c668c55aad8263ad6977cbf430998be75b6697f",
+                "url": "https://api.github.com/repos/flarum/testing/zipball/226557562f0f7af97f8d1198263923b3814b801e",
+                "reference": "226557562f0f7af97f8d1198263923b3814b801e",
                 "shasum": ""
             },
             "require": {
@@ -9712,7 +9712,7 @@
                 "forum"
             ],
             "support": {
-                "source": "https://github.com/flarum/testing/tree/v2.0.0"
+                "source": "https://github.com/flarum/testing/tree/v2.0.1"
             },
             "funding": [
                 {
@@ -9724,7 +9724,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-07-31T21:00:55+00:00"
+            "time": "2026-10-17T22:16:32+00:00"
         },
         {
             "name": "fruitcake/php-cors",
