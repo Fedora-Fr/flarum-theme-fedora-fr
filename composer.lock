@@ -9614,16 +9614,16 @@
     "packages-dev": [
         {
             "name": "flarum/phpstan",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/phpstan.git",
-                "reference": "b3fceac5c2e58fac773500bab47165fa66c8fa1c"
+                "reference": "74c188378271eb44830cf99d26bd63c97c5f23cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/phpstan/zipball/b3fceac5c2e58fac773500bab47165fa66c8fa1c",
-                "reference": "b3fceac5c2e58fac773500bab47165fa66c8fa1c",
+                "url": "https://api.github.com/repos/flarum/phpstan/zipball/74c188378271eb44830cf99d26bd63c97c5f23cd",
+                "reference": "74c188378271eb44830cf99d26bd63c97c5f23cd",
                 "shasum": ""
             },
             "require": {
@@ -9653,7 +9653,7 @@
             ],
             "description": "Flarum PHPStan extension",
             "support": {
-                "source": "https://github.com/flarum/phpstan/tree/v2.0.0"
+                "source": "https://github.com/flarum/phpstan/tree/v2.0.1"
             },
             "funding": [
                 {
@@ -9665,7 +9665,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-09-10T13:33:39+00:00"
+            "time": "2026-10-17T22:16:32+00:00"
         },
         {
             "name": "flarum/testing",
@@ -9981,16 +9981,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v13.35.0",
+            "version": "v13.39.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "cfbc033f7230dac62b79b86e275e8cf1dbfda650"
+                "reference": "787241bbecc8ec719e8a425c253b0616bb78270d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/cfbc033f7230dac62b79b86e275e8cf1dbfda650",
-                "reference": "cfbc033f7230dac62b79b86e275e8cf1dbfda650",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/787241bbecc8ec719e8a425c253b0616bb78270d",
+                "reference": "787241bbecc8ec719e8a425c253b0616bb78270d",
                 "shasum": ""
             },
             "require": {
@@ -10043,7 +10043,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-09-30T21:41:23+00:00"
+            "time": "2026-10-26T13:12:21+00:00"
         },
         {
             "name": "larastan/larastan",
@@ -10396,11 +10396,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.1",
+            "version": "2.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6155239b488e95d26d1ebd95c6b4bb294d7f09db",
-                "reference": "6155239b488e95d26d1ebd95c6b4bb294d7f09db",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4b57dc8ca7456b635d1661845f44bc060b02c6b0",
+                "reference": "4b57dc8ca7456b635d1661845f44bc060b02c6b0",
                 "shasum": ""
             },
             "require": {
@@ -10456,7 +10456,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-08T21:09:11+00:00"
+            "time": "2026-10-27T14:06:26+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -11973,16 +11973,16 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v8.1.8",
+            "version": "v8.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "51c014e881d8b4ce61e56c0d4105f65b50df786a"
+                "reference": "55c6935bb4c004a72b55f723e79d5404881dcad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/51c014e881d8b4ce61e56c0d4105f65b50df786a",
-                "reference": "51c014e881d8b4ce61e56c0d4105f65b50df786a",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/55c6935bb4c004a72b55f723e79d5404881dcad3",
+                "reference": "55c6935bb4c004a72b55f723e79d5404881dcad3",
                 "shasum": ""
             },
             "require": {
@@ -12059,7 +12059,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v8.1.8"
+                "source": "https://github.com/symfony/http-kernel/tree/v8.1.9"
             },
             "funding": [
                 {
@@ -12079,7 +12079,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-29T14:08:01+00:00"
+            "time": "2026-10-14T06:47:03+00:00"
         },
         {
             "name": "theseer/tokenizer",
