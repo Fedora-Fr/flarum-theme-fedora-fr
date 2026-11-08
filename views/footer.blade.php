@@ -49,4 +49,4 @@
   </div>
 </div>
 
-<a id="backToTop"><i class="fas fa-chevron-up"></i></a>
+<a id="scrollTopBtn"><i class="fas fa-arrow-up"></i></a>

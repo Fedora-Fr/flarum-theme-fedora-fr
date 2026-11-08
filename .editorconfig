@@ -16,7 +16,7 @@ indent_size = 2
 [*.{diff,md}]
 trim_trailing_whitespace = false
 
-[*.{phs,xml,json}]
+[*.{php,xml}]
 indent_size = 4
 
 [*.blade.php]

@@ -245,31 +245,34 @@ body {
 
 
 /** --------------------------------------------------------- Back to the top */
-
-#backToTop {
-  &.show {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10000;
-  }
-
+#scrollTopBtn {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.2);
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
   position: fixed;
-  bottom: 55px;
+  bottom: 30px;
   right: 30px;
-  transition: background-color .3s, opacity .5s, visibility .5s;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #3c6eb4;
+  color: var(--fedora-fr-to-top-color);
+  font-size: 20px;
+  cursor: pointer;
   opacity: 0;
   visibility: hidden;
+  transition: opacity 0.3s;
+  text-align: center;
+  line-height: 44px;
+
   i {
-    position: absolute;
-    top: 32%;
-    left: 35%;
+  line-height: 44px;
+    vertical-align: middle;
   }
+}
+
+#scrollTopBtn.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 

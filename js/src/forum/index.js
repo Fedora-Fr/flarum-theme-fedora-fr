@@ -3,16 +3,16 @@ import { extend, override } from "flarum/common/extend";
 // We provide our extension code in the form of an "initializer".
 // This is a callback that will run after the core has booted.
 app.initializers.add("fedora-fr-theme", function (app) {
-  // Back to the top button.s
-  var ffrBackToTop = $("#backToTop");
+  // Back to the top button.
+  var scrollTopBtn = $("#scrollTopBtn");
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
-      ffrBackToTop.addClass("show");
+      scrollTopBtn.addClass("visible");
     } else {
-      ffrBackToTop.removeClass("show");
+      scrollTopBtn.removeClass("visible");
     }
   });
-  ffrBackToTop.on("click", function (e) {
+  scrollTopBtn.on("click", function (e) {
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "300");
   });
