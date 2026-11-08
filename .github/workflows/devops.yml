@@ -53,10 +53,13 @@ jobs:
       with:
         runtime: node@${{ matrix.node-version }}
         cache: true
+        working-directory: js
 
     # Instal & run tasks
     - name: Install Node.js dependencies
       run: pnpm install --frozen-lockfile
+      working-directory: js
     - name: Run Node.js linter
       run: pnpm format-check
+      working-directory: js
 
