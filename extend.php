@@ -9,7 +9,7 @@ return [
     (new Extend\Frontend('forum'))
         // Add CSS & JS
         ->js(__DIR__ . '/js/dist/forum.js')
-        ->css(__DIR__ . '/less/forum.less')
+        ->css(__DIR__ . '/less/index.less')
         // Add templates
         ->content(FedoraFrTheme::class),
 
