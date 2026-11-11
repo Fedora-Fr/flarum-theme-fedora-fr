@@ -22,7 +22,7 @@
         <ul>
           <li><a href="https://www.fedora-fr.org/conditions-d-utilisation/" title="Conditions d’utilisation">Conditions d'Utilisation</a></li>
           <li><a href="https://doc.fedora-fr.org" title="Documentation wiki de Fedora-Fr, la communauté francophone Fedora">Documentation</a></li>
-          <li><a href="https://doc.fedora-fr.org" title="Forums de Fedora-Fr, la communauté francophone Fedora">Forums</a></li>
+          <li><a href="https://forums.fedora-fr.org" title="Forums de Fedora-Fr, la communauté francophone Fedora">Forums</a> (<a href="https://www.fedora-fr.org/faq-du-forum/" title="FAQ du forum">FAQ</a>)</li>
           <li><a href="https://www.fedora-fr.org/messagerie-instantanee" title="Support et communauté via messagerie instantanée">Messageries instantanées</a></li>
         </ul>
       </div>
