@@ -18,7 +18,7 @@ app.initializers.add("fedora-fr-theme", function (app) {
   });
 
   // Prevent full refresh
-  var ffrHomeLink = $(".ffr-home-link");
+  var ffrHomeLink = $(".Fedorafr-HomeLink");
   for (var i = 0; i < ffrHomeLink.length; i++) {
     ffrHomeLink[i].addEventListener("click", (e) => {
       if (e.ctrlKey || e.metaKey || e.button === 1) return;
