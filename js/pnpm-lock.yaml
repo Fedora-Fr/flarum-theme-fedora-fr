@@ -173,8 +173,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       flarum-webpack-config:
-        specifier: ^3.1.0
-        version: 3.1.0(supports-color@8.1.1)(webpack@5.113.0)
+        specifier: ^3.1.1
+        version: 3.1.1(supports-color@8.1.1)(webpack@5.113.0)
       prettier:
         specifier: ^3.10.1
         version: 3.10.1
@@ -1200,8 +1200,8 @@ packages:
   flarum-tsconfig@2.0.0:
     resolution: {integrity: sha512-YEyYu9uZCc7WIXw4Q+W60aC2RVSw7/K0tlaVfQrJbovw6Uu0dIV5AdRRtpJFGjVhzv+OmMfbQeG5aI+xxf/gvQ==}
 
-  flarum-webpack-config@3.1.0:
-    resolution: {integrity: sha512-pFM2YC30Pj0yt+AU4bU7qFMagX5J3453xVpbCXmgmf7yAYXt8E/eK2bl7P4HM54T+224wUF+38M2mywO+sJt1Q==}
+  flarum-webpack-config@3.1.1:
+    resolution: {integrity: sha512-44pUut8hKjNAmqHFsU8K5xS3QmYyiKGtUKpg4HWOiWzbvO4fxRPC5zh+hIeT51tvs+aUz48ZmS6pRYsr8mPGLQ==}
     peerDependencies:
       webpack: ^5.104.1
 
@@ -2801,7 +2801,7 @@ snapshots:
       '@types/throttle-debounce': 2.1.0
       dayjs: 1.11.23
 
-  flarum-webpack-config@3.1.0(supports-color@8.1.1)(webpack@5.113.0):
+  flarum-webpack-config@3.1.1(supports-color@8.1.1)(webpack@5.113.0):
     dependencies:
       '@babel/core': 7.29.13(supports-color@8.1.1)
       '@babel/plugin-transform-object-assign': 7.29.7(@babel/core@7.29.13(supports-color@8.1.1))
